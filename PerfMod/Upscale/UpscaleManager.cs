@@ -52,7 +52,7 @@ namespace PureDark.VRising.PerfMod.Upscale
             }
             if (IsUpscaleEnabled())
             {
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.LeftAlt) && Input.GetKeyUp(KeyCode.F))
+                if (Input.GetKeyUp(KeyCode.H))
                 {
                     UpscaleFlat.SwitchUpscaleMethod();
                     textDisplayTime = 30f;
